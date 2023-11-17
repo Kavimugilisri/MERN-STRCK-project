@@ -1,0 +1,5 @@
+var fs=require ('fs')
+var read=fs.createReadStream('kavi.txt')
+var write=fs.createWriteStream('shaik.txt')
+read.pipe(write)
+console.log("rename...")
