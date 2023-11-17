@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            sample text
+        </title>
+        <script>
+            function sample1()
+            {
+                alert ("welcome to our hands")
+                document.write("this is function")
+            }
+            function sample2()
+            {
+                var pid;
+                pid=parseInt(prompt("enter the p value is::"))
+                document.write("your value is::"+pid)
+            }
+            function sample3()
+            {
+                var a;
+                a=parseInt(prompt("enter the a value is ::"))
+                if (a==1000)
+                {
+                    document.write("your a value is::"+a)
+                }
+                else
+                {
+                    document.write("its not eqaul::"+a)
+                }
+            }
+            function sample4()
+            {
+                var s=parseInt(prompt("Enter the s value is ::"))
+                if (s%2!=0)
+                {
+                    document.write("Its odd::"+s)
+                }
+                else
+                {
+                    document.write("its even ::"+s)
+                }
+            }
+            function sample5()
+            {
+                var age =parseInt(prompt("Enter your age ::"))
+                var bounces;
+                if (age>=61)
+                {
+                    var salary=parseInt(prompt("enter your salary is::"))
+                    if (salary>1000)
+                    {
+                        bounces=salary+1000
+                        document.write("your bounces is ::"+bounces)
+                    }
+                    else 
+                    {
+                        bounces=salary+1500
+                        document.write("your salary is ::"+bounces)
+                    }
+                }
+                else
+                {
+                    document.write("your age is low ::"+age)
+                }
+            }
+            function sample6()
+            {
+                var e1=parseInt(prompt("enter the e1 value ::"))
+                switch(e1)
+                {
+                    case 1:
+                    var r=parseInt(prompt("enyer the r value ::"))
+                    if (a==1001)
+                    {
+                        document.write("its equal")
+                    }
+                    else 
+                    {
+                        document.write("its not equal")
+                    }
+                    break;
+                    case 2:
+                        document.write("case-2")
+                    break;
+                    case 3:
+                        document.write("case-3")
+                        default :
+                        document.write("default case")
+                        break;
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="submit" value="function1" onclick="sample1()"/>
+
+        <input type="submit" value="function2" onclick="sample2()"/>
+
+        <input type="submit" value="function3" onclick="sample3()"/>
+
+        <input type="submit" value="function4" onclick="sample4()"/>
+
+        <input type="submit" value="function5" onclick="sample5()"/>
+
+        <input type="submit" value="function6" onclick="sample6()"/>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            sample text
+        </title>
+    </head>
+    <body>
+        global variable:: <p id="d1"></p>
+        local variable:: <p id="d2"></p>
+        <script>
+            let x=100; 
+            {
+                let x=200;
+                document.getElementById("d2").innerHTML=x;
+            }
+            document.getElementById("d1").innerHTML=x;
+        </script>
+    </body>
+</html>

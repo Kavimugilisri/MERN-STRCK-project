@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            sample
+        </title>
+    </head>
+    <body>
+        <h1 id="f1" style="background-color: cadetblue;"></h1>
+        <h2 id="f2" style="background-color: fuchsia;"></h2>
+        <h3 id="f3" style="background-color: crimson;"></h3>
+        <script>
+            var age=parseInt(prompt("Enter the age ::"))
+            var bounces;
+            if (age<61)
+            {
+            var salary=parseInt(prompt("enter the salary ::"))
+            if (salary>1000)
+            {
+                bounces=salary+1000
+                document.getElementById("f1").innerHTML="your bounces is ::"+bounces
+            }
+            else 
+            {
+                bounces=salary+2000
+                document.getElementById("f2").innerHTML="your bounces is ::"+bounces
+            }
+        }
+            else
+            {
+                document.getElementById("f3").innerHTML="your too older ::"
+            }
+        </script>
+    </body>
+</html>
