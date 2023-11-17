@@ -1,0 +1,19 @@
+
+#f1
+{
+    background-color: aquamarine;
+    font-style: italic;
+}
+.f1
+{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.g1
+{
+    border-style: dotted;
+    border-color: blue;
+    background-color: aliceblue;
+    margin: 2% 2% 2% 2%;
+
+}

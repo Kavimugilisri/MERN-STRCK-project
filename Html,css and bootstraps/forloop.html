@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            sample text
+        </title>
+    </head>
+    <body>
+        Your Name is::<p id="d1"></p>
+        Your Year is::<p id="d2"></p> 
+        <script>
+            class sample 
+            {
+                constructor(name,year)
+                {
+                    this.name=name;
+                    this.year=year;
+                }
+            }
+            const my1=new sample("azar",1989)
+            const my2=new sample("kavi",2002)
+            document.getElementById("d1").innerHTML=my1.name+"\t"+my2.name;
+            document.getElementById("d2").innerHTML=my1.year+"\t"+my2.year;
+        </script>
+    </body>
+</html>
